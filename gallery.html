@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery | LENS ART Photography</title>
+    <style>
+        /* section 1 */
+        #zgscd{
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        #zgscd > h1{
+            color: var(--color-3);
+            margin: 55px 0 0;
+        }
+        #zgsds{
+            color: var(--color-1);
+        }
+        #zgscd > p{
+            margin: 0 90px;
+        }
+        #zgscdi > img{
+            margin: 20px;
+            width: 300px;
+            height: 450px;
+        }
+
+        #zgscdii{
+            margin: 20px;
+            width: 300px;
+            height: 450px;
+        }
+        #zgscdii2{
+            width: 640px;
+            height: 450px;
+            margin: 20px;
+        }
+        #zgscdi, #zgscdi2{
+            display: flex;
+            justify-content: center;
+        }
+
+
+        /* media query */
+
+        @media screen and (max-width:1020px) {
+            #zgscdi > img, #zgscdii {width: 250px; height: 400px; margin: 10px;}
+            #zgscdii2 {width: 520px; height: 400px; margin: 10px;}
+        }
+        @media screen and (max-width:850px) {
+            #zgscdi > img, #zgscdii {width: 200px; height: 300px; margin: 8px;}
+            #zgscdii2 {width: 416px; height: 300px; margin: 8px;}
+        }
+        @media screen and (max-width:700px) {
+            #zgscdi > img, #zgscdii {width: 180px; height: 250px; margin: 7px;}
+            #zgscdii2 {width: 374px; height: 250px; margin: 7px;}
+            #zgscd > p {margin: 0 40px;}
+        }
+        @media screen and (max-width:600px) {
+            #zgscdi,#zgscdi2 {flex-wrap: wrap;}
+        }
+        @media screen and (max-width:400px) {
+            #zgscdi > img, #zgscdii {width: 100%; height: 100vh; margin: 7px;}
+            #zgscdii2 {width: 100%; height: 50vh; margin: 7px;}
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+
+    <header id="header">
+        <div class="w fsb">
+            <a>
+                <img id="i" src="imgs/icons/logo.png" alt="Logo">
+            </a>
+            <nav id="nw1">
+                <input type="checkbox" id="check">
+                <ul class="fsb" id="ul1">
+                    <li class="li1" id="l1">
+                        <a class="a" href="index.html">Home</a>
+                    </li>
+                    <li class="li1" id="l2">
+                        <a class="a" href="about.html">About</a>
+                    </li>
+                    <li class="li1" id="l3">
+                        <a id="p1" class="a" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="li1" id="l4">
+                        <a class="a" href="services.html">Services</a>
+                    </li>
+                    <li class="li1" id="l5">
+                        <a class="a" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <label for="check" id="i1">
+                    <img src="imgs/icons/menu.svg" alt="menu">
+                </label>
+            </nav>
+        </div>
+    </header>
+
+        <!-- section 1 -->
+        <section>
+            <div id="zgsd" class="w">
+                <div id="zgscd">
+                    <h1>View our clicked <span id="zgsds">moments</span></h1>
+                    <p>Explore our captivating gallery, where fashion and portraiture intertwine to showcase the beauty of style and personality. Each click captures a moment, revealing stories of elegance, creativity, and human connection.</p>
+                </div>
+                <div id="zgscd2">
+                    <div id="zgscdi">
+                        <img src="imgs/folder1/Girl4.jpg" alt="Girl">
+                        <img src="imgs/folder1/Girl7.jpg" alt="Girl1">
+                        <img src="imgs/folder1/Girl18.jpg" alt="Girl2">
+                    </div>
+                    <div id="zgscdi2">
+                        <img id="zgscdii" src="imgs/folder1/Girl5.jpg" alt="Girl">
+                        <img id="zgscdii2" src="imgs/folder1/Girl13.jpg" alt="Girl">
+                    </div>
+                    <div id="zgscdi2">
+                        <img id="zgscdii2" src="imgs/folder2/YellowGirl12.jpg" alt="Yellow Girl">
+                        <img id="zgscdii" src="imgs/folder2/YellowGirl01.jpg" alt="Yellow Girl">
+                    </div>
+                    <div id="zgscdi">
+                        <img src="imgs/folder2/YellowGirl09.jpg" alt="Yellow Girl">
+                        <img src="imgs/folder2/YellowGirl07.jpg" alt="Yellow Girl">
+                        <img src="imgs/folder2/YellowGirl15.jpg" alt="Yellow Girl">
+                    </div>
+                    <div id="zgscdi2">
+                        <img id="zgscdii" src="imgs/folder3/Beautyfullgirl14.jpg" alt="Beautyfull Girl">
+                        <img id="zgscdii2" src="imgs/folder3/Beautyfullgirl08.jpg" alt="Beautyfull Girl">
+                    </div>
+                    <div id="zgscdi">
+                        <img src="imgs/folder3/Beautyfullgirl18.jpg" alt="Beautyfull girl">
+                        <img src="imgs/folder3/Beautyfullgirl02.jpg" alt="Beautyfull girl">
+                        <img src="imgs/folder3/Beautyfullgirl15.jpg" alt="Beautyfull girl">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer id="footer">
+            <div id="fd">
+                <div id="fsd">
+                    <div id="fcd1">
+                        <img id="fsci" src="imgs/icons/call.svg" alt="Call">
+                        <span id="fsds1">+94 76 925 5325</span>
+                    </div>
+                    <div id="fcd1">
+                        <img id="fsci" src="imgs/icons/mail.svg" alt="Mail">
+                        <span id="fsds1">lensartphotograpy01@gmail.com</span>
+                    </div>
+                    <div id="fcd1">
+                        <img id="fsci" src="imgs/icons/facebook.svg" alt="Facebook">
+                        <a id="fsds1" href="https://www.facebook.com/profile.php?id=61553636380735&mibextid=2JQ9oc">LENS ART Photography</a>
+                    </div>
+                </div>
+                <span id="fsds2" >COPYRIGHTS &copy; LENS ART PHOTOGRAPHY 2024 All rights reserved</span>
+            </div>
+        </footer>
+</body>
+</html>

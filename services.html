@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Our Services | LENS ART Photography</title>
+    <style>
+        /* section 1 */
+        #zscd{
+            text-align: center;
+        }
+        #zscd > p{
+            margin: 15px;
+        }
+        #zscdh1{
+            font-size: 30px;
+            margin: 55px 0 0;
+        }
+
+        #zscd2c > img{
+            width: 60px;
+        }
+        #zscd2c{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border: 1px solid #4d4d4d;
+            width: 200px;
+            height: 150px;
+            margin: 20px;
+        }
+        #zscd2c > span{
+            font-family: var(--font-2);
+            font-size: 20px;
+        }
+        #zscdi{
+            display: flex;
+            justify-content: center;
+        }
+
+        /* media query */
+
+        @media screen and (max-width:600px) {
+            #zscdi {flex-wrap: wrap;}
+        }
+
+    </style>
+</head>
+<body>
+    <!-- header -->
+
+    <header id="header">
+        <div class="w fsb">
+            <a>
+                <img id="i" src="imgs/icons/logo.png" alt="Logo">
+            </a>
+            <nav id="nw1">
+                <input type="checkbox" id="check">
+                <ul class="fsb" id="ul1">
+                    <li class="li1" id="l1">
+                        <a class="a" href="index.html">Home</a>
+                    </li>
+                    <li class="li1" id="l2">
+                        <a class="a" href="about.html">About</a>
+                    </li>
+                    <li class="li1" id="l3">
+                        <a class="a" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="li1" id="l4">
+                        <a id="p1" class="a" href="services.html">Services</a>
+                    </li>
+                    <li class="li1" id="l5">
+                        <a class="a" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <label for="check" id="i1">
+                    <img src="imgs/icons/menu.svg" alt="menu">
+                </label>
+            </nav>
+        </div>
+    </header>
+
+    <!-- section 1 -->
+    <section>
+        <div id="zsd" class="w">
+            <div id="zscd">
+                <h1 id="zscdh1">Our allowed services</h1>
+                <p>We offer several photography categories to meet your needs.Contact us for more</p>
+            </div>
+            <div id="zscd2">
+                <div id="zscdi">
+                    <div id="zscd2c">
+                        <img src="imgs/icons/party.png" alt="party">
+                        <span>Functions<br>Capture</span>
+                    </div>
+                    <div id="zscd2c">
+                        <img src="imgs/icons/cake.png" alt="cake">
+                        <span>Birthday<br>Photography</span>
+                    </div>
+                    <div id="zscd2c">
+                        <img src="imgs/icons/shirt.png" alt="shirt">
+                        <span>Casual<br>Photography</span>
+                    </div>
+                </div>
+                <div id="zscdi">
+                    <div id="zscd2c">
+                        <img src="imgs/icons/couple.png" alt="couple">
+                        <span>Relationship<br>Photography</span>
+                    </div>
+                    <div id="zscd2c">
+                        <img src="imgs/icons/baby.png" alt="baby">
+                        <span>Little's<br>Photography</span>
+                    </div>
+                    <div id="zscd2c">
+                        <img src="imgs/icons/family.png" alt="family">
+                        <span>Family<br>Captures</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- footer -->
+        <footer id="footer">
+            <div id="fd">
+                <div id="fsd">
+                    <div id="fcd1">
+                        <img id="fsci" src="imgs/icons/call.svg" alt="Call">
+                        <span id="fsds1">+94 76 925 5325</span>
+                    </div>
+                    <div id="fcd1">
+                        <img id="fsci" src="imgs/icons/mail.svg" alt="Mail">
+                        <span id="fsds1">lensartphotograpy01@gmail.com</span>
+                    </div>
+                    <div id="fcd1">
+                        <img id="fsci" src="imgs/icons/facebook.svg" alt="Facebook">
+                        <a id="fsds1" href="https://www.facebook.com/profile.php?id=61553636380735&mibextid=2JQ9oc">LENS ART Photography</a>
+                    </div>
+                </div>
+                <span id="fsds2" >COPYRIGHTS &copy; LENS ART PHOTOGRAPHY 2024 All rights reserved</span>
+            </div>
+        </footer>
+</body>
+</html>

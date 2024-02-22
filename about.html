@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About US | LENS ART Photography</title>
+    <style>
+
+        /* section 1 */
+        #zsd{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        #zscd1{
+            width: 50%;
+        }
+        .zscds{
+            font-family: var(--font-2);
+        }
+        .zscdi{
+            width: 25px;
+            padding: 5px;
+        }
+        #zscd2{
+            width: 50%;
+            height: 670px;
+        }
+        #zsdh1{
+            font-size: 35px;
+        }
+        #zscdr{
+            margin-top: 30px;
+        }
+        #zscdd,#zscdd2 {
+            display: flex;
+            align-items: center;
+        }
+        #zscdd2{
+            margin-bottom: 10px;
+        }
+
+        /* section 2 */
+        #zsd2h1{
+            text-align: center;
+            color: var(--color-3);
+            font-size: 30px;
+            margin: 25px;
+        }
+        .zsd2s{
+            color:var(--color-1);
+        }
+        #zsd2cdd{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            border: 1px solid #4d4d4d;
+            width: 200px;
+            height: 150px;
+            align-items: center;
+        }
+        #zsd2cdd > span{
+            font-family: var(--font-2);
+            color: var(--color-1);
+            text-align: center;
+            /* font-weight: bold; */
+        }
+        #zsd2cdd > img{
+            width: 65px;
+        }
+        #zsd2cd,#zsd2cd2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #zsd2cd > p, #zsd2cd2 > p{
+            width: 600px;
+        }
+        #zscdl{
+            height: 2px;
+            width: 100%;
+            background: var(--color-1);
+            margin-top: 60px;
+        }
+        #zscdb{
+            font-size: 25px;
+            color: var(--color-2);
+            background: var(--color-1);
+            font-family: var(--font-2);
+            padding: 0px 30px;
+        }
+        #zsdb{
+            text-align: center;
+            margin-top: -20px;
+        }
+
+        /* media query */
+        @media screen and (max-width:850px) {
+            #zscdr {margin-top: 5px; display: flex; justify-content: center;}
+            #zsd {flex-direction: column; align-items: center; text-align: center;}
+            #zscd1 {width: 87%;}
+            #zscdd {padding-right: 10px;}
+            #zscd2 {width: 500px; margin-bottom: 15px;}
+        }
+        @media screen and (max-width:550px) {
+            #zscd2 {width: 400px;}
+        }
+        @media screen and (max-width:450px) {
+            #zscd2 {width: 350px; height: 500px;}
+            #zscdr {flex-direction: column; align-items: center;}
+            #zsdh1 {margin: 0;}
+        }
+        @media screen and (max-width:400px) {
+            #zscd2 {width: 300px; height: 450px;}
+            #zsd2cd {flex-direction: column; text-align: center; align-items: center;}
+            #zsd2cd2 {flex-direction: column-reverse;}
+            #zsd2cd > p, #zsd2cd2 > p {width: 100%;}
+            
+        }
+        @media screen and (max-width:350px) {
+            #zscd2 {width: 100%;}
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- header -->
+
+    <header id="header">
+        <div class="w fsb">
+            <a>
+                <img id="i" src="imgs/icons/logo.png" alt="Logo">
+            </a>
+            <nav id="nw1">
+                <input type="checkbox" id="check">
+                <ul class="fsb" id="ul1">
+                    <li class="li1" id="l1">
+                        <a class="a" href="index.html">Home</a>
+                    </li>
+                    <li class="li1" id="l2">
+                        <a id="p1" class="a" href="about.html">About</a>
+                    </li>
+                    <li class="li1" id="l3">
+                        <a class="a" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="li1" id="l4">
+                        <a class="a" href="services.html">Services</a>
+                    </li>
+                    <li class="li1" id="l5">
+                        <a class="a" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <label for="check" id="i1">
+                    <img src="imgs/icons/menu.svg" alt="menu">
+                </label>
+            </nav>
+        </div>
+    </header>
+
+    <!-- section 1 -->
+    <section>
+        <div id="zsd" class="w">
+            <div id="zscd1">
+                <h1 id="zsdh1">Pasan Arunalu</h1>
+                <p id="zscdp">A devoted photographer driven by the beauty and depth of the world around us. Photography, to me, is not merely a profession but a lifelong passion that fuels my creativity and ignites my spirit.</p>
+                <p id="zscdp2">My journey in photography began with a simple fascination for capturing moments that tell stories, evoke emotions, and preserve memories. Over the years, I've cultivated my skills, refining my technique and embracing my unique artistic vision.</p>
+                <p id="zscdp3">With each click of the shutter, I strive to encapsulate the essence of a fleeting moment - whether it's the raw emotion of a candid portrait, the awe-inspiring grandeur of nature, or the vibrant energy of a celebration. Every image I create is infused with my dedication to authenticity and my unwavering commitment to excellence.</p>
+                <p id="zscdp4">I believe in the power of photography to transcend boundaries, connect hearts, and inspire change. Through my lens, I aim to illuminate the beauty that surrounds us, inviting viewers to see the world through a new perspective.</p>
+                <div id="zscdr">
+                    <div id="zscdd">
+                        <img class="zscdi" src="imgs/icons/call.svg" alt="Call">
+                        <span class="zscds" >+94 76 925 5325</span>
+                    </div>
+                    <div id="zscdd2">
+                        <img class="zscdi" src="imgs/icons/facebook.svg" alt="facebook">
+                        <a class="zscds" href="https://www.facebook.com/profile.php?id=61553636380735&mibextid=2JQ9oc">LENS ART Photography</a>
+                    </div>
+                </div>
+            </div>
+            <img id="zscd2" src="imgs/PasanArunalu.jpg" alt="PasanArunalu">
+        </div>
+    </section>
+
+    <!-- section 2 -->
+    <section>
+        <div id="zsd2" class="w">
+            <h1 id="zsd2h1">Why choose <span class="zsd2s">LENS ART ?</span></h1>
+            <div id="zsd2cd">
+                <div id="zsd2cdd">
+                    <img src="imgs/icons/leadership.png" alt="Unique Style">
+                    <span>Unique Style</span>
+                </div>
+                <p>LENS ART has their own unique style and artistic vision, allowing you to select a your aesthetic preferences.</p>
+            </div>
+            <div id="zsd2cd2">
+                <p>Allows for a more personalized experience tailored to your specific needs, style preferences, and vision.</p>
+                <div id="zsd2cdd">
+                    <img src="imgs/icons/target.png" alt="Personalized Approach">
+                    <span>Personalized Approach</span>
+                </div>
+            </div>
+            <div id="zsd2cd">
+                <div id="zsd2cdd">
+                    <img src="imgs/icons/quality.png" alt="Quality of service">
+                    <span>Quality of service</span>
+                </div>
+                <p>You can expect personalized attention and dedicated attention to ensure a high level of service and satisfaction.</p>
+            </div>
+            <div id="zscdl"></div>
+            <div id="zsdb" >
+                <a id="zscdb" href="gallery.html">Our clicked moments</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- footer -->
+        <footer id="footer">
+            <div id="fd">
+                <div id="fsd">
+                    <div id="fcd1">
+                        <img id="fsci" src="imgs/icons/call.svg" alt="Call">
+                        <span id="fsds1">+94 76 925 5325</span>
+                    </div>
+                    <div id="fcd1">
+                        <img id="fsci" src="imgs/icons/mail.svg" alt="Mail">
+                        <span id="fsds1">lensartphotograpy01@gmail.com</span>
+                    </div>
+                    <div id="fcd1">
+                        <img id="fsci" src="imgs/icons/facebook.svg" alt="Facebook">
+                        <a id="fsds1" href="https://www.facebook.com/profile.php?id=61553636380735&mibextid=2JQ9oc">LENS ART Photography</a>
+                    </div>
+                </div>
+                <span id="fsds2" >COPYRIGHTS &copy; LENS ART PHOTOGRAPHY 2024 All rights reserved</span>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact us | LENS ART Photography</title>
+
+    <style>
+
+        #zscd{
+            display: flex;
+            justify-content: center;
+        }
+        #zscdc1{
+            width: 50%;
+            height: 450px;
+        }
+        #zscdc1 > h1,#zscdc2 > h1{
+            font-size: 35px;
+            margin: 55px 0 0;
+        }
+        #zscdcu{
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        #zscdcu > img{
+            width: 18px;
+            margin: 5px;
+        }
+        #zscdcu > span, a{
+            font-size: 17px;
+            font-family: var(--font-2);
+            color: var(--color-3);
+        }
+
+        /* form */
+        #contactForm{
+            margin: 15px 0;
+        }
+        #contactForm{
+            display: flex;
+            flex-direction: column;
+        }
+        #contactForm > label{
+            font-family: var(--font-2);
+        }
+        #contactForm > input{
+            width: 350px;
+            height: 20px;
+        }
+        #contactForm > textarea{
+            width: 350px;
+            height: 90px;
+            margin: 0 0 20px;
+        }
+        #contactForm > input,textarea{
+            border: 0;
+            background: #e6e6e6;
+            padding: 5px;
+        }
+        #contactForm > button{
+            width: 150px;
+            background: #b3b3b3;
+            border: 0;
+            text-transform: uppercase;
+            font-family: var(--font-2);
+            color: var(--color-3);
+            font-size: 17px;
+            padding: 5px 20px;
+        }
+        #contactForm > button:hover{
+            background: #818181;
+        }
+
+
+        /* media query */
+
+        @media screen and (max-width:790px) {
+            #zscdc1 > h1, #zscdc2 > h1 {margin: 35px 0 0;}
+            #zscdc1 {width: 100%;}
+            #zscd {flex-direction: column-reverse; align-items: center; text-align: center;}
+            #contactForm > input, #contactForm > textarea {width: 100%;}
+            #contactForm,#zscdcu {align-items: center;justify-content: center;}
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- header -->
+
+    <header id="header">
+        <div class="w fsb">
+            <a>
+                <img id="i" src="imgs/icons/logo.png" alt="Logo">
+            </a>
+            <nav id="nw1">
+                <input type="checkbox" id="check">
+                <ul class="fsb" id="ul1">
+                    <li class="li1" id="l1">
+                        <a class="a" href="index.html">Home</a>
+                    </li>
+                    <li class="li1" id="l2">
+                        <a class="a" href="about.html">About</a>
+                    </li>
+                    <li class="li1" id="l3">
+                        <a class="a" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="li1" id="l4">
+                        <a class="a" href="services.html">Services</a>
+                    </li>
+                    <li class="li1" id="l5">
+                        <a id="p1" class="a" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <label for="check" id="i1">
+                    <img src="imgs/icons/menu.svg" alt="menu">
+                </label>
+            </nav>
+        </div>
+    </header>
+
+        <!-- section 1 -->
+        <section>
+            <div id="zscd" class="w">
+                <div id="zscdc1">
+                    <h1>Send a Message</h1>
+                    <form action="https://api.web3forms.com/submit" id="contactForm" method="post" >
+
+                        <input type="hidden" name="access_key" value="d87489b2-54e9-42d1-97da-9a2fd434eae8">
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        
+                        <button type="submit" value="Submit">Submit</button>    
+                    </form>
+                </div>
+                <div id="zscdc2">
+                    <h1>Contact us</h1>
+                    <div id="zscdcu">
+                        <img src="imgs/icons/call2.svg" alt="call">
+                        <span>+94 76 925 5325</span>
+                    </div>
+                    <div id="zscdcu">
+                        <img src="imgs/icons/mail2.svg" alt="mail">
+                        <span>lensartphotograpy01@gmail.com</span>
+                    </div>
+                    <div id="zscdcu">
+                        <img src="imgs/icons/facebook.svg" alt="facebook">
+                        <a href="https://www.facebook.com/profile.php?id=61553636380735&mibextid=2JQ9oc">LENS ART Photography</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div id="fd">
+            <div id="fsd">
+                <div id="fcd1">
+                    <img id="fsci" src="imgs/icons/call.svg" alt="Call">
+                    <span id="fsds1">+94 76 925 5325</span>
+                </div>
+                <div id="fcd1">
+                    <img id="fsci" src="imgs/icons/mail.svg" alt="Mail">
+                    <span id="fsds1">lensartphotograpy01@gmail.com</span>
+                </div>
+                <div id="fcd1">
+                    <img id="fsci" src="imgs/icons/facebook.svg" alt="Facebook">
+                    <a id="fsds1" href="https://www.facebook.com/profile.php?id=61553636380735&mibextid=2JQ9oc">LENS ART Photography</a>
+                </div>
+            </div>
+            <span id="fsds2" >COPYRIGHTS &copy; LENS ART PHOTOGRAPHY 2024 All rights reserved</span>
+        </div>
+    </footer>
+</body>
+</html>

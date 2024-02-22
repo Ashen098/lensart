@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home | LENS ART Photography</title>
+<style>
+
+    /* section 1 */
+    #zd{
+        text-align: center
+    }
+    #zd2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .h11{
+        margin: 55px 0 0;
+    }
+    .sp1{
+        color: var(--color-1);
+    }
+
+    #zsd{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    #zscd1, #zscd2{
+        display: flex;
+        justify-content: center;
+    }
+    #zscd1 > img{
+        margin: 20px;
+        width: 300px;
+    }
+    #zscd2i{
+        margin: 20px;
+        width: 640px;
+    }
+    #zscdi{
+        width: 300px;
+        margin: 20px;
+    }
+    #zsb{
+        font-size: 25px;
+        color: var(--color-2);
+        background: var(--color-1);
+        font-family: var(--font-2);
+        padding: 0px 30px;
+    }
+    #zsl{
+        width: 100%;
+        height: 2px;
+        margin-bottom: -20px;
+        background: var(--color-1);
+    }
+
+    /* media query */
+
+    @media screen and (max-width: 990px) {
+        #zscd1 > img {margin: 15px; width: 250px;}
+        #zscdi {margin: 15px; width: 250px;}
+        #zscd2i {margin: 15px; width: 530px;}
+    }
+    @media screen and (max-width: 830px) {
+        #zscd1 > img {margin: 10px; width: 200px;}
+        #zscdi {margin: 10px; width: 200px;}
+        #zscd2i {margin: 10px; width: 420px;}
+    }
+    @media screen and (max-width:660px) {
+        #zscd1 > img {margin: 10px; width: 150px;}
+        #zscdi {margin: 10px; width: 150px;}
+        #zscd2i {margin: 10px; width: 320px;}
+    }
+    @media screen and (max-width:530px) {
+        #zscd1,#zscd2 {display: flex; flex-direction: column; justify-content: center; align-items: center;}
+        #zscd1 > img,#zscd2 > img {width: 100%; margin: 5px;}
+        
+    }
+
+
+
+</style>
+</head>
+<body>
+    <!-- header -->
+
+    <header id="header">
+        <div class="w fsb">
+            <a>
+                <img id="i" src="imgs/icons/logo.png" alt="Logo">
+            </a>
+            <nav id="nw1">
+                <input type="checkbox" id="check">
+                <ul class="fsb" id="ul1">
+                    <li class="li1" id="l1">
+                        <a id="p1" class="a" href="index.html">Home</a>
+                    </li>
+                    <li class="li1" id="l2">
+                        <a class="a" href="about.html">About</a>
+                    </li>
+                    <li class="li1" id="l3">
+                        <a class="a" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="li1" id="l4">
+                        <a class="a" href="services.html">Services</a>
+                    </li>
+                    <li class="li1" id="l5">
+                        <a class="a" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <label for="check" id="i1">
+                    <img src="imgs/icons/menu.svg" alt="menu">
+                </label>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section 1 -->
+
+    <section id="zsec1">
+        <div id="zd" class="w">
+            <div id="zd2">
+                <h1 class="h11">Capturing Your <span class="sp1">Unforgettable</span> Moments</h1>
+                <p class="p1">Explore our captivating gallery, where fashion and portraiture intertwine to showcase the beauty of style and personality. Book your session today. Let's turn memories into timeless treasures.</p>
+            </div>
+
+            <div id="zsd">
+                <div id="zscd1">
+                    <img src="imgs/folder4/whitegirl3.jpg" alt="WhiteGirl">
+                    <img src="imgs/folder3/Beautyfullgirl10.jpg" alt="beautyfullGirl">
+                    <img src="imgs/folder2/YellowGirl15.jpg" alt="yellowGirl">
+                </div>
+                <div id="zscd2">
+                    <img id="zscd2i" src="imgs/folder1/Girl3.jpg" alt="girl">
+                    <img id="zscdi" src="imgs/folder2/YellowGirl03.jpg" alt="Yellow Girl">
+                </div>
+                <div id="zscd2">
+                    <img id="zscdi" src="imgs/folder4/whitegirl1.jpg" alt="WhiteGirl">
+                    <img id="zscd2i" src="imgs/folder3/Beautyfullgirl23.jpg" alt="BeautyFull Girl">
+                </div>
+                <div id="zscd1">
+                    <img src="imgs/folder2/YellowGirl13.jpg" alt="YellowGirl">
+                    <img src="imgs/folder3/Beautyfullgirl24.jpg" alt="BeautyFull Girl">
+                    <img src="imgs/folder4/whitegirl2.jpg" alt="WhiteGirl">
+                </div>
+            </div>
+            <div id="zsl" ></div>
+            <a id="zsb" href="contact.html">Contact Now</a>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div id="fd">
+            <div id="fsd">
+                <div id="fcd1">
+                    <img id="fsci" src="imgs/icons/call.svg" alt="Call">
+                    <span id="fsds1">+94 76 925 5325</span>
+                </div>
+                <div id="fcd1">
+                    <img id="fsci" src="imgs/icons/mail.svg" alt="Mail">
+                    <span id="fsds1">lensartphotograpy01@gmail.com</span>
+                </div>
+                <div id="fcd1">
+                    <img id="fsci" src="imgs/icons/facebook.svg" alt="Facebook">
+                    <a id="fsds1" href="https://www.facebook.com/profile.php?id=61553636380735&mibextid=2JQ9oc">LENS ART Photography</a>
+                </div>
+            </div>
+            <span id="fsds2" >COPYRIGHTS &copy; LENS ART PHOTOGRAPHY 2024 All rights reserved</span>
+        </div>
+    </footer>
+
+</body>
+</html>
